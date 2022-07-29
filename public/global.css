@@ -70,3 +70,10 @@ html {
 .changeMinicart:hover {
   background: #4f84f8;
 }
+
+@media (max-width: 768px) {
+  .changeMinicart {
+    padding: 2px;
+    gap: 3px;
+  }
+}
