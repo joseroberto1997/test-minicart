@@ -20,14 +20,14 @@ export function Products({ products }) {
                       style: "currency",
                       currency: "BRL",
                       minimumFractionDigits: 2,
-                    }).format(product.listPrice)}
+                    }).format(parseFloat(product.listPrice / 100).toFixed(2))}
                   </span>
                   <span className={styles.bestPrice}>
                     {Intl.NumberFormat("pt-BR", {
                       style: "currency",
                       currency: "BRL",
                       minimumFractionDigits: 2,
-                    }).format(product.price)}
+                    }).format(parseFloat(product.price / 100).toFixed(2))}
                   </span>
                 </div>
               </div>

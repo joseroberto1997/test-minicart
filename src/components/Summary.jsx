@@ -13,7 +13,7 @@ export function Summary({ total }) {
             style: "currency",
             currency: "BRL",
             minimumFractionDigits: 2,
-          }).format(total)}
+          }).format(parseFloat(total / 100).toFixed(2))}
         </span>
       </div>
       {hasFreeShipping ? (

@@ -26,11 +26,13 @@ function App() {
 
   useEffect(() => {
     if (changeMinicart) {
-      fetch("http://localhost:3333/below-ten")
+       // Caso o link da Api não estiver funcionando rodar o json-server e trocar a url para http://localhost:3333/below-ten
+      fetch("https://products-api-minicart.herokuapp.com/below-ten")
         .then((response) => response.json())
         .then((data) => setProducts(data[0].items));
     } else {
-      fetch("http://localhost:3333/above-ten")
+      // Caso o link da Api não estiver funcionando rodar o json-server e trocar a url para http://localhost:3333/above-ten    
+      fetch("https://products-api-minicart.herokuapp.com/above-ten")
         .then((response) => response.json())
         .then((data) => setProducts(data[0].items));
     }
@@ -38,11 +40,13 @@ function App() {
 
   useEffect(() => {
     if (changeMinicart) {
-      fetch("http://localhost:3333/below-ten")
+      // Caso o link da Api não estiver funcionando rodar o json-server e trocar a url para http://localhost:3333/below-ten
+      fetch("https://products-api-minicart.herokuapp.com/below-ten")
         .then((response) => response.json())
         .then((data) => setTotal(data[0].totalizers[0].value));
     } else {
-      fetch("http://localhost:3333/above-ten")
+      // Caso o link da Api não estiver funcionando rodar o json-server e trocar a url para http://localhost:3333/above-ten                                                              http://localhost:3333/above-ten
+      fetch("https://products-api-minicart.herokuapp.com/above-ten")
         .then((response) => response.json())
         .then((data) => setTotal(data[0].totalizers[0].value));
     }
