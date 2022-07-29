@@ -1,6 +1,10 @@
 ### `npm run server`
 
-- Inicia o json-server (fake api) para consumir os dados da API na porta 3333 *** http://localhost:3333/below-ten ***  *** http://localhost:3333/above-ten ***
+- Inicia o json-server (fake api) para consumir os dados da API na porta 3333 
+
+*** http://localhost:3333/below-ten ***  
+
+*** http://localhost:3333/above-ten ***
 
 ### `npm start`
 
