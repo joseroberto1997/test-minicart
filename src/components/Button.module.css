@@ -1,0 +1,41 @@
+.content {
+  max-width: 724px;
+  width: 100%;
+
+  margin: 37px 0 37px 0;
+}
+
+.button {
+  width: 100%;
+  height: 100px;
+
+  border: none;
+  border-radius: 12px;
+  background: var(--button-color);
+
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text-color-button);
+
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #4f84f8;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+  }
+
+  .button {
+    font-size: 20px;
+    font-weight: 700;
+    height: 70px;
+  }
+}
