@@ -24,8 +24,7 @@
 
 
 <div>
-<img src="https://user-images.githubusercontent.com/43824795/181790252-6d2f061d-bfcf-4670-b5a2-016a261f502f.gif
-" />
+ <img src="./src/assets/project.gif" />
 </div>
 
 
