@@ -14,14 +14,17 @@
 
 - Para realizar o build do projeto
 
+### `links api heroku`
 
+**https://products-api-minicart.herokuapp.com/below-ten**
+**https://products-api-minicart.herokuapp.com/above-ten**
 ### `Trocar carrinho`
 
 - O botão trocar carrinho é utilizado para alternar os produtos para que mostre a mensagem de frete grátis.
 
 
 <div>
-<img src="![ezgif com-gif-maker](https://user-images.githubusercontent.com/43824795/181790252-6d2f061d-bfcf-4670-b5a2-016a261f502f.gif)
+<img src="https://user-images.githubusercontent.com/43824795/181790252-6d2f061d-bfcf-4670-b5a2-016a261f502f.gif
 " />
 </div>
 
