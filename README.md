@@ -1,3 +1,7 @@
+## `link do projeto hospedado na vercel`
+
+**https://test-minicart.vercel.app/**
+
 ### `npm run server`
 
 - Inicia o json-server (fake api) para consumir os dados da API na porta 3333 
